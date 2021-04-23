@@ -14,4 +14,8 @@ public class Hero {
 		System.out.println(this.name + "は死んでしまった！");
 		System.out.println("GAME OVERです。");
 	}
+
+	public String getName() {
+		return this.name;
+	}
 }
